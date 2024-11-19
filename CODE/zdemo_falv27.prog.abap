@@ -43,9 +43,9 @@ class lcl_falv implementation.
 
     " vertikal verbinden
     set_merge_vertically(
-        row           = 1
-        tab_col_merge =  VALUE #(
-           ( col_id    = 1 outputlen = 2 ) ) ).
+        col           = 1
+        tab_row_merge =  VALUE #(
+           ( row_id    = 1 outputlen = 2 ) ) ).
 
     set_cell_style(
         row   = 1
